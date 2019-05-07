@@ -1,0 +1,22 @@
+@media only screen and (max-width: 600px) {
+  #header #logo-container {
+    margin: auto;
+  }
+
+  #text-container h1 {
+    font-size: 1.5rem;
+  }
+
+  #text-container h1 a {
+    display: block;
+  }
+
+  #banner-wrapper {
+    justify-content: center;
+    background-position: 60% 10%;
+  }
+
+  #navbar {
+    display: none;
+  }
+}

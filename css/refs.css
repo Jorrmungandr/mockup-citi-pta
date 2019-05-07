@@ -1,0 +1,12 @@
+:root {
+  --dark-blue: #252239;
+  --light-blue: #608DA1;
+  --gold: #e1b370;
+}
+
+body {
+  margin: 0;
+  font-family:'Roboto';
+  font-size: 20px;
+  height: 100%;
+}
