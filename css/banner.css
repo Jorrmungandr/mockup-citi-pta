@@ -11,28 +11,28 @@
   filter: brightness(80%);
 }
 
-#text-container {
+#banner-wrapper #text-container {
   text-align: center;
   color: white;
 }
 
-#text-container h1 {
+#banner-wrapper #text-container h1 {
   font-size: 3.4rem;
 }
 
-#text-container h1 a {
+#banner-wrapper #text-container h1 a {
   color: var(--gold);
   font-size: 3.4rem;
 }
 
-#text-container h2 {
+#banner-wrapper #text-container h2 {
   font-size: 1.2rem;
-  max-width: 70%;
+  max-width: 50%;
   margin: auto;
   padding: 14px;
 } 
 
-#text-container > a {
+#banner-wrapper #text-container > a {
   display: inline-block;
   margin-top: 30px;
   background-color: var(--dark-blue);

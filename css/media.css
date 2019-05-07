@@ -3,11 +3,11 @@
     margin: auto;
   }
 
-  #text-container h1 {
+  #banner-wrapper #text-container h1 {
     font-size: 1.5rem;
   }
 
-  #text-container h1 a {
+  #banner-wrapper #text-container h1 a {
     display: block;
   }
 
@@ -18,5 +18,14 @@
 
   #navbar {
     display: none;
+  }
+}
+
+@media only screen and (max-width: 1050px) {
+  #card-wrapper {
+    flex-direction: column;
+  }
+  .card {
+    margin-bottom: 40px;
   }
 }
