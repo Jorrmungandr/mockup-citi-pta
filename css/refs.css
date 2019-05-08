@@ -1,11 +1,16 @@
+/* Eu costumo usar um arquivo refs.css pra armazenar variáveis ou mixins(sass)
+e também pra configurar o body */
 :root {
+  /* As cores passadas no mockup */
   --dark-blue: #252239;
   --light-blue: #608DA1;
   --gold: #e1b370;
 }
 
 body {
+  /* Pra o Body "colar" nas pontas */
   margin: 0;
+  /* A fonte do mockup */
   font-family:'Roboto';
   font-size: 20px;
 }

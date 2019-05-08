@@ -1,37 +1,46 @@
+/* Manter o texto no meio da página */
 #card-container  {
   text-align: center;
 }
 
+/* A parte que fica em cima dos cards */
 #card-container #text-container {
   margin: 6%;
+  /* A "linha" embaixo do texto */
   border-bottom: 2px solid black;
   width: 200px;
   display: inline-block;
 }
 
+/* A parte do texto que tem a escrita "fina" */
 #card-container #text-container h2 {
-  font-weight: 100;
+  font-weight: lighter;
   margin: 0;
 }
 
+/* A palavra "Etapas"(dourada e negrito) */
 #card-container #text-container a {
   color: var(--gold);
   font-weight: bold;
 }
 
+/* Os cards ficam aqui */
 #card-wrapper {
   margin: auto;
   display: flex;
   justify-content: center;
-  width: 74%;
+  width: 80%;
 }
 
+/* O card com a borda fina e levemente arredondado nas pontas */
 .card {
   border: 1px solid var(--light-blue);
   border-radius: 5px;
   margin: 0 5% 5% 5%;
+  flex: 1;
 }
 
+/* A parte do número e título do card */
 .card .title {
   display: flex;
   align-items: center;
@@ -40,26 +49,33 @@
   margin: 30px auto auto auto;
 }
 
+/* O título */
 .card h3 {
   margin: auto;
+  /* Pra ele ficar atrás */
   position: relative;
   font-size: 8rem;
   color: var(--light-blue);
+  /* Pra ele ficar mais clarinho */
+  opacity: 0.5;
 }
 
+/* O texto que fica "na frente" do número*/
 .card h4 {
-  /* margin-left: 15px; */
   text-align: right;
   max-width: 10%;
+  /* Pra ele ficar na frente */
   position: absolute;
   margin-top: 0;
   font-size: 1.5rem;
 }
 
+/* E o parágrafo do card */
 .card p {
   position: relative;
   color: var(--light-blue);
   font-size: 0.8rem;
+  /* Pra ele ficar no meio e ter aquele espaço abaixo dele */
   margin: 0 auto 60px auto;
   text-align: left;
   width: 85%;

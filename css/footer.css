@@ -1,16 +1,19 @@
+/* A parte que fica embaixo de tudo */
 footer {
   background-color: var(--dark-blue);
+  /* Pra ele "colar" no fundo */
   margin-bottom: 0;
-  display: flex;
 }
 
+/* Essa div é para o footer ficar com os espaços dos lados*/
 footer > div {
-  width: 90%;
+  width: 85%;
   display: flex;
   margin: auto;
   justify-content: space-between;
 }
 
+/* A parte do copyright */
 footer h2 {
   color: white;
   padding: 20px 0 20px 0;
@@ -18,14 +21,22 @@ footer h2 {
   margin: 0;
 }
 
+/* Os ícones ficam aqui */
 footer #icons-container{
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-around;
   align-items: center;
 }
 
+/* Esses são os ícones */
 footer img {
   max-height: 20px;
-  flex: 1;
-  margin: 15px 15px 15px 15px;
+  margin: 15px;
+  /* Pra ficar com o cursor de selecionar */
+  cursor: pointer;
+}
+
+/* Pra perder opacidade quando o mouse tá em cima */
+footer img:hover {
+  opacity: 0.7;
 }

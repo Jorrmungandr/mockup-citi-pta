@@ -1,13 +1,19 @@
+/* A div que o banner é o background */
 #banner-wrapper {
   display: flex;
+  /* Pro texto ficar centralizado */
   justify-content: center;
   align-items: center;
+  /* Assim quando diminui a altura o texto "entra atrás da navbar" */
   overflow: hidden;
-  background: url(../img/intersection.png) no-repeat;
+  background: url(../img/intersection.png);
+  /* Onde a imagem é cortada */
   height: 88vh; 
+  /* Essas três linhas servem pra fazer o background se ajudar conforme o tamanho muda */
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  /* Pra diminuir a claridade da imagem */
   filter: brightness(80%);
 }
 
@@ -20,11 +26,13 @@
   font-size: 3.4rem;
 }
 
+/* A palavra "Dinheiro" em tom de ouro */
 #banner-wrapper #text-container h1 a {
   color: var(--gold);
   font-size: 3.4rem;
 }
 
+/* O subtítulo */
 #banner-wrapper #text-container h2 {
   font-size: 1.2rem;
   max-width: 50%;
@@ -32,11 +40,13 @@
   padding: 14px;
 } 
 
+/* A parte de "Pedir diagnóstico" */
 #banner-wrapper #text-container > a {
   display: inline-block;
   margin-top: 30px;
   background-color: var(--dark-blue);
   padding: 10px 20px;
   border-radius: 50px;
+  /* Pra quando colocar o mouse em cima mudar o cursor */
   cursor: pointer;
 }

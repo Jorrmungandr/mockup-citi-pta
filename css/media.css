@@ -1,35 +1,51 @@
+/* Quando a tela fica do tamanho de celulares */
 @media only screen and (max-width: 600px) {
+  /* A logo centraliza */
   header #logo-container {
     margin: auto;
   }
 
+  /* A navbar some */
+  #navbar {
+    display: none;
+  }
+  
+  /* O texto do banner Fica menor*/
   #banner-wrapper #text-container h1 {
     font-size: 1.5rem;
   }
 
+  /* Isso é pra ter certeza que a palavra "Dinheiro" fique embaixo no título */
   #banner-wrapper #text-container h1 a {
     display: block;
   }
 
+  /* O background muda de posição */
   #banner-wrapper {
-    justify-content: center;
     background-position: 60% 10%;
   }
 
-  #navbar {
-    display: none;
+  /* Os ícones do footer ficam em cima do copyright */
+  footer > div {
+    flex-direction: column-reverse;
+  }
+  
+  /* O copyright fica centralizado */
+  footer #copyright-container {
+    width: 50%;
+    text-align: center;
+    margin: auto;
   }
 
-  footer h2 {
-    display: none;
-  }
-
+  /* E os ícones ficam no meio */
   footer #icons-container {
     margin: auto;
   }
 }
 
+/* Quando a tela fica suficientemente pequena pra o texto dos cards passarem da div */
 @media only screen and (max-width: 1100px) {
+  /* Eu mudo a orientação dos cards */
   #card-wrapper {
     flex-direction: column;
   }
