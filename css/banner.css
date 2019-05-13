@@ -6,6 +6,7 @@
   align-items: center;
   /* Assim quando diminui a altura o texto "entra atrás da navbar" */
   overflow: hidden;
+  /* A imagem do cara com a mão levantada */
   background: url(../img/intersection.png);
   /* Onde a imagem é cortada */
   height: 88vh; 
